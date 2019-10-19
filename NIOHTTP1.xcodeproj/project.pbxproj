@@ -81,6 +81,7 @@
 		E8AC4148235B5290008DE82E /* GetaddrinfoResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC4095235B4130008DE82E /* GetaddrinfoResolver.swift */; };
 		E8AC4149235B52B3008DE82E /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC40A2235B4130008DE82E /* Bootstrap.swift */; };
 		E8AC414A235B52B3008DE82E /* HappyEyeballs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC407F235B4130008DE82E /* HappyEyeballs.swift */; };
+		E8D0BD43235B6ADB00CD1497 /* shim.c in Sources */ = {isa = PBXBuildFile; fileRef = E8AC406F235B4130008DE82E /* shim.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -675,6 +676,7 @@
 				E8AC40EC235B4606008DE82E /* EventLoopFuture.swift in Sources */,
 				E8AC4118235B4C3A008DE82E /* PriorityQueue.swift in Sources */,
 				E8AC4147235B5280008DE82E /* Resolver.swift in Sources */,
+				E8D0BD43235B6ADB00CD1497 /* shim.c in Sources */,
 				E8AC4104235B49E4008DE82E /* ByteBuffer-aux.swift in Sources */,
 				E8AC40DB235B440D008DE82E /* IntegerTypes.swift in Sources */,
 				E8AC4149235B52B3008DE82E /* Bootstrap.swift in Sources */,
@@ -787,6 +789,7 @@
 			baseConfigurationReference = E8AC40D1235B421D008DE82E /* MacStaticLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/CNIODarwin/include";
 				PRODUCT_MODULE_NAME = NIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Sources/CNIODarwin";
@@ -798,6 +801,7 @@
 			baseConfigurationReference = E8AC40D1235B421D008DE82E /* MacStaticLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/CNIODarwin/include";
 				PRODUCT_MODULE_NAME = NIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Sources/CNIODarwin";
