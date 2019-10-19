@@ -8,3 +8,5 @@ checkout
 **DO NOT USE THIS**
 
 _unless you know what you are doing_ 🤓
+
+Intended as a standalone, non-SPM Xcode project. Produces static libs.
