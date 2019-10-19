@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOConcurrencyHelpers
+//hh: import NIOConcurrencyHelpers
 
 /// The core `Channel` methods that are for internal use of the `Channel` implementation only.
 ///

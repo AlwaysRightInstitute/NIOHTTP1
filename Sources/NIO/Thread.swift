@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOLinux
+//import CNIOLinux
 
 private typealias ThreadBoxValue = (body: (NIOThread) -> Void, name: String?)
 private typealias ThreadBox = Box<ThreadBoxValue>

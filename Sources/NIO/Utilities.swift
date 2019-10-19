@@ -17,7 +17,7 @@
 ///
 /// This is currently the only way to do this in Swift: see
 /// https://forums.swift.org/t/support-debug-only-code/11037 for a discussion.
-import CNIOLinux
+// hh: import CNIOLinux
 
 @inlinable
 internal func debugOnly(_ body: () -> Void) {

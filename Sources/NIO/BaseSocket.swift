@@ -13,6 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 import NIOConcurrencyHelpers
+import Darwin
 
 /// A Registration on a `Selector`, which is interested in an `SelectorEventSet`.
 protocol Registration {

@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIO
+//hh:import NIO
 import Foundation
 
 extension ByteBuffer {

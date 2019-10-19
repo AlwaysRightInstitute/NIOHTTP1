@@ -1,0 +1,6 @@
+module CNIODarwin [system] {
+  
+  header "include/CNIODarwin.h"
+  
+  export *
+}
