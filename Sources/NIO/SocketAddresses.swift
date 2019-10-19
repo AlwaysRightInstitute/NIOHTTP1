@@ -13,7 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 /// Special `Error` that may be thrown if we fail to create a `SocketAddress`.
-import CNIOLinux
+//hh: import CNIOLinux
+import Darwin
 
 public enum SocketAddressError: Error {
     /// The host is unknown (could not be resolved).

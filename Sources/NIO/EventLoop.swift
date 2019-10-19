@@ -637,7 +637,7 @@ private enum EventLoopLifecycleState {
 /// is guaranteed to never change!
 @usableFromInline
 internal final class SelectableEventLoop: EventLoop {
-    private let selector: NIO.Selector<NIORegistration>
+    private let selector: /*hh: NIO.*/Selector<NIORegistration>
     private let thread: NIOThread
     private var scheduledTasks = PriorityQueue<ScheduledTask>(ascending: true)
     private var tasksCopy = ContiguousArray<() -> Void>()
@@ -678,7 +678,7 @@ internal final class SelectableEventLoop: EventLoop {
     }
 
     public init(thread: NIOThread) throws {
-        self.selector = try NIO.Selector()
+        self.selector = try /*hh:NIO.*/Selector()
         self.thread = thread
         self._iovecs = UnsafeMutablePointer.allocate(capacity: Socket.writevLimitIOVectors)
         self._storageRefs = UnsafeMutablePointer.allocate(capacity: Socket.writevLimitIOVectors)

@@ -1,0 +1,6 @@
+module CNIOAtomics [system] {
+  
+  header "include/CNIOAtomics.h"
+  
+  export *
+}

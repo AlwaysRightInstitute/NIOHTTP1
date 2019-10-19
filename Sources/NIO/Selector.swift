@@ -12,6 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+import Darwin
+
 private enum SelectorLifecycleState {
     case open
     case closing

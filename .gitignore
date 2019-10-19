@@ -1,7 +1,6 @@
 .DS_Store
 /.build
 /Packages
-/*.xcodeproj
 Package.pins
 *.pem
 /docs
@@ -9,3 +8,6 @@ Package.resolved
 .podspecs
 DerivedData
 .swiftpm
+NIOHTTP1.xcodeproj/project.xcworkspace/xcuserdata
+NIOHTTP1.xcodeproj/xcuserdata
+

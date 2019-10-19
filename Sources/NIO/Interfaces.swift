@@ -18,7 +18,8 @@
 //  Created by Cory Benfield on 27/02/2018.
 //
 
-import CNIOLinux
+//hh: import CNIOLinux
+import Darwin
 
 private extension ifaddrs {
     var dstaddr: UnsafeMutablePointer<sockaddr>? {
