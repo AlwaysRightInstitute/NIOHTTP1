@@ -19,5 +19,5 @@ install:
 script:
     - export PATH="$HOME/usr/bin:$PATH"
     - set -o pipefail
-    - xcodebuild -scheme DirectToSwiftUI-All -configuration Debug   -target NIOHTTP1-AppKit | xcpretty
-    - xcodebuild -scheme DirectToSwiftUI-All -configuration Release -target NIOHTTP1-AppKit | xcpretty
+    - xcodebuild -scheme NIOHTTP1-AppKit -configuration Debug   -target NIOHTTP1-AppKit | xcpretty
+    - xcodebuild -scheme NIOHTTP1-AppKit -configuration Release -target NIOHTTP1-AppKit | xcpretty
