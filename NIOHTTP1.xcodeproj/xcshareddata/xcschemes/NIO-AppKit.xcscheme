@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8AC412A235B4EFD008DE82E"
-               BuildableName = "libNIOHTTP1-AppKit.a"
-               BlueprintName = "NIOHTTP1-AppKit"
+               BlueprintIdentifier = "E8AC4056235B4111008DE82E"
+               BuildableName = "libNIO-AppKit.a"
+               BlueprintName = "NIO-AppKit"
                ReferencedContainer = "container:NIOHTTP1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E8AC412A235B4EFD008DE82E"
-            BuildableName = "libNIOHTTP1-AppKit.a"
-            BlueprintName = "NIOHTTP1-AppKit"
+            BlueprintIdentifier = "E8AC4056235B4111008DE82E"
+            BuildableName = "libNIO-AppKit.a"
+            BlueprintName = "NIO-AppKit"
             ReferencedContainer = "container:NIOHTTP1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
